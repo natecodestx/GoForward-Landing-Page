@@ -1,10 +1,25 @@
 <style>
+
+html {
+  scroll-behavior: smooth;
+}
+
+bg-div {
+  color: white
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+  background-color: #7ED321;
+}
+
+.logo {
+margin: 30px;
 }
 
 table {
   font-family: arial, sans-serif;
+  color: white;
   border-collapse: collapse;
   width: 100%;
 }
@@ -17,5 +32,64 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #7ED321;
+}
+
+.bg-div {
+  color: white
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  font-family: 'Ubuntu', Helvetica, sans-serif;
+  color: white;
+  float: right;
+  padding: 30px
+}
+
+h1 {
+  font-family: 'Ubuntu', Helvetica, sans-serif;
+  color: white;
+}
+
+h2 {
+  font-family: 'Ubuntu', Helvetica, sans-serif;
+  color: white;
+}
+
+h3 {
+  font-family: 'Ubuntu', Helvetica, sans-serif;
+  color: white;
+}
+
+h4 {
+  font-family: 'Ubuntu', Helvetica, sans-serif;
+  color: white;
+}
+
+h5 {
+  font-family: 'Ubuntu', Helvetica, sans-serif;
+  color: white;
+}
+
+h6 {
+  font-family: 'Ubuntu', Helvetica, sans-serif;
+  color: #919EAB;
+}
+
+p {
+  font-family: 'Ubuntu', Helvetica, sans-serif;
+  color: white;
+}
+
+form {
+  font-family: 'Ubuntu', Helvetica, sans-serif;
+  color: white;
 }
 </style>
