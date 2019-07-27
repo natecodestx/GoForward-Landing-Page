@@ -1,10 +1,34 @@
 <style>
 
+@media screen and (max-width: 750px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer a {
+    float: none;
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 bg-div {
+  overflow: hidden;
   color: white
 }
 
@@ -15,6 +39,7 @@ body {
 
 .logo {
 margin: 30px;
+width: 30%;
 }
 
 table {
