@@ -1,13 +1,13 @@
 <style>
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 480px) {
   .navbar a {
     float: none;
     width: 100%;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 480px) {
   .footer a {
     float: none;
     width: 100%;
